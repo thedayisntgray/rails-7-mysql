@@ -1,5 +1,16 @@
 # ChatGPT 4o Generate Guide to Create a Rails 7 and MySql DB project
 
+## 2 Prompts where used:
+
+### Initial Prompts:
+> Generate the steps to create a rails 7 app and a mysql instance in 2 docker containers that I can run.
+
+Unfortunatuely GPT4o thought it should skip active record passing ```--skip-active-record```. I was curious why it did this and I prompted it with the following prompt.
+
+> Why are you skipping this?
+
+These two prompts are the precursor of the guide you see below.
+
 ### Step 1: Install Docker
 
 First, make sure Docker is installed on your system. You can download and install Docker from [here](https://www.docker.com/products/docker-desktop).
