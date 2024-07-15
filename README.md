@@ -1,7 +1,5 @@
 # ChatGPT 4o Generate Guide to Create a Rails 7 and MySql DB project
 
- You're right; there is no need to skip Active Record if you intend to use MySQL as your database with Rails. By default, Rails sets up Active Record, and you can directly configure it to use MySQL. Let's adjust the steps accordingly without skipping Active Record.
-
 ### Step 1: Install Docker
 
 First, make sure Docker is installed on your system. You can download and install Docker from [here](https://www.docker.com/products/docker-desktop).
